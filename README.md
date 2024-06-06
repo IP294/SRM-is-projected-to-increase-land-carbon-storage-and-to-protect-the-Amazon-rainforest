@@ -53,9 +53,16 @@ The following scripts concatenate historical datasets with ssp245, ssp585 and G6
   - concatenate_G6_world.py - concatenates worldwide historical datasets with G6sulfur datasets, for some models ssp585 data is used to fill the gap between the end of the       historical run and the beginning of G6sulfur runs
   - concatenate_ssp245_hist_world.py - concatenates worldwide historical datasets with ssp245 datasets
   - concatenate_ssp585_hist_world.py - concatenates worldwide histotical datasets with ssp585 datasets 
-  - concatenate_ssp585_hist_region.py - concatenates regional (Amazon) historical datasets with ssp585 or ssp245 datasets 
-  
-  
+  - concatenate_ssp585_hist_region.py - concatenates regional (Amazon) historical datasets with ssp585 or ssp245 datasets
 
-  
+## Figure scripts
+The following scripts are dependent on the above interpolation and concatenation scripts being run in order for the neccessary files to be available for analysis. 
+
+- Time_series_plot_geo_hist_World_figure1_final.py - A script which uses  interpolated data to produce Figure 1 of the manuscipt (Timeseries showing the evolution of the decadal means of surface temperature, precipitation, net primary productivity, and land carbon anomalies relative to the pre-industrial period with time from 1900 to 2100.)
+- Maps_Geo_Figures2&3_final.py - A script which uses interpolated data to produce Figures 2 & 3 of the manuscript (Maps showing the difference between the 2090-2100 means of G6sulfur and SSP585/SSP245 for surface temperature (oC), precipitation (mm day-1), net primary productivity (kgC m-2 yr-1), and land carbon (kgC m-2).)
+- Time_series_plot_geo_World_figure4_final.py - A script which uses interpolated data to produce Figure 4 of the manuscript (evolution of the global mean changes in NPP and land carbon anomalies relative to the pre-industrial period against temperature anomaly and CO2.)
+-Time_series_plot_geo_World_SM1.py - A script which uses interpolated data to produce Supplementary figure 1 (A timeseries showing the evolution of land carbon relative to the pre-industrial period for all models analyses in G6sulfur, SSP585, and SSP245.)
+- Maps_Geo_comp_Amazon.py - A script which uses interpolated data to produce Supplementary figures 2&4 (maps showing the difference between the 2090-2100 means of G6sulfur and SSP585/SSP245 in the Amazon for surface temperature (oC), precipitation (mm day-1), net primary productivity (kgC m-2 yr-1, and land carbon (kgC m-2).)
+- Plotting_changes_World_landuse_SM3.py - A script which uses interpolated land use data to produce Supplementary figure 3 (map showing the difference between prescribed forested land (primf+secdf) in SSP245 versus SSP585.)
+- Time_series_plot_geo_Amazon_SM5.py - A script which uses interpolated data to produce Supplementary figure 5 (timeseries showing the evolution of the decadal mean of surface temperature, precipitation, net primary productivity, and land carbon anomalies relative to the pre-industrial period in the Amazon with time from 1900 to 2100.) 
 
