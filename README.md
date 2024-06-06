@@ -34,26 +34,26 @@ Users should install the following packages prior to running any of the code in 
 # Demo
 ## Interpolation Scripts
 The following scripts are designed to interpolate single or multiple files of CMIP6 data onto a common world grid with 1 degree resolution, producing a single output file of interpolated data which may then be used for either further interpolation/concatenation or analysis.
-  World_interpolation_Geo.py - designed to run on G6sulfur datasets
-  World_interpolation_hist.py - designed to run on historical datasets
-  World_interpolation_landuse.py - designed to run on land use change data
-  World_interpolation_ssp245.py - designed to run on ssp245 datasets
-  World_interpolation_ssp585.py - designed to run on ssp585 datasets
-  World_interpolation_co2.py - designed to run on co2 datasets
+  - World_interpolation_Geo.py - designed to run on G6sulfur datasets
+  - World_interpolation_hist.py - designed to run on historical datasets
+  - World_interpolation_landuse.py - designed to run on land use change data
+  - World_interpolation_ssp245.py - designed to run on ssp245 datasets
+  - World_interpolation_ssp585.py - designed to run on ssp585 datasets
+  - World_interpolation_co2.py - designed to run on co2 datasets
 
 The following scripts interpolate the data from files output by the World_interpolation scripts onto a regional grid of the Amazon with 1 degree resolution. A single file of regionally interpolated data is output which may then be used in either concatenation scripts or analysis. 
-  Regional_interpolation_Geo.py - designed to run on G6sulfur datasets
-  Regional_interpolation_hist.py - designed to run on historical datasets
-  Regional_interpolation_landuse.py - designed to run on land use change data
-  Regional_interpolation_co2.py - designed to run on co2 datasets
-  Regional_interpolation_ssp585.py - designed to run on ssp585 datasets
-  Regional_interpolation_ssp245.py - designed to run on ssp245 datasets
+  - Regional_interpolation_Geo.py - designed to run on G6sulfur datasets
+  - Regional_interpolation_hist.py - designed to run on historical datasets
+  - Regional_interpolation_landuse.py - designed to run on land use change data
+  - Regional_interpolation_co2.py - designed to run on co2 datasets
+  - Regional_interpolation_ssp585.py - designed to run on ssp585 datasets
+  - Regional_interpolation_ssp245.py - designed to run on ssp245 datasets
 
 The following scripts concatenate historical datasets with ssp245, ssp585 and G6sulfur datasets to create a continuous run of data from 1850-2100 for each scenario. 
-  concatenate_G6_world.py - concatenates worldwide historical datasets with G6sulfur datasets, for some models ssp585 data is used to fill the gap between the end of the       historical run and the beginning of G6sulfur runs
-  concatenate_ssp245_hist_world.py - concatenates worldwide historical datasets with ssp245 datasets
-  concatenate_ssp585_hist_world.py - concatenates worldwide histotical datasets with ssp585 datasets 
-  concatenate_ssp585_hist_region.py - concatenates regional (Amazon) historical datasets with ssp585 or ssp245 datasets 
+  - concatenate_G6_world.py - concatenates worldwide historical datasets with G6sulfur datasets, for some models ssp585 data is used to fill the gap between the end of the       historical run and the beginning of G6sulfur runs
+  - concatenate_ssp245_hist_world.py - concatenates worldwide historical datasets with ssp245 datasets
+  - concatenate_ssp585_hist_world.py - concatenates worldwide histotical datasets with ssp585 datasets 
+  - concatenate_ssp585_hist_region.py - concatenates regional (Amazon) historical datasets with ssp585 or ssp245 datasets 
   
   
 
