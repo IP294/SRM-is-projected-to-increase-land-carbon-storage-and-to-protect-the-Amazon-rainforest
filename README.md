@@ -32,6 +32,8 @@ Users should install the following packages prior to running any of the code in 
   - pathlib V_1.0.1
 
 # Demo
+All scripts are expected to run within few minuetes or less on a normal desktop computor. 
+
 ## Interpolation Scripts
 The following scripts are designed to interpolate single or multiple files of CMIP6 data onto a common world grid with 1 degree resolution, producing a single output file of interpolated data which may then be used for either further interpolation/concatenation or analysis.
   - World_interpolation_Geo.py - designed to run on G6sulfur datasets
