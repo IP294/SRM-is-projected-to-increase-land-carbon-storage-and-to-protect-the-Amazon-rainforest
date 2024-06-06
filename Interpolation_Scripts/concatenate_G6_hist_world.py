@@ -17,9 +17,9 @@ var = 'co2'
 
 g6_exp = 'G6solar' #define G6 experiment
 
-### read in the ssp245, historical and G6 cubes 
+### read in the ssp585, historical and G6 cubes 
 path1 = 'C:/Users/ip294/OneDrive - University of Exeter/PhD_Tipping_Points/'+var+'/historical/Processed_data/World/'
-path2 = 'C:/Users/ip294/OneDrive - University of Exeter/PhD_Tipping_Points/'+var+'/ssp245/Processed_data/World/'
+path2 = 'C:/Users/ip294/OneDrive - University of Exeter/PhD_Tipping_Points/'+var+'/ssp585/Processed_data/World/'
 path3 = 'C:/Users/ip294/OneDrive - University of Exeter/PhD_Tipping_Points/'+var+'/'+g6_exp+'/Processed_data/World/'
 
 for m in range (np.size(models)): #loop through models 
@@ -62,9 +62,9 @@ for m in range (np.size(models)): #loop through models
         variant_id = 'r1i1p1f2'  
         variant_id2 = 'r1i1p1f2'
     
-    #define full filepaths to the historical and ssp245 data
+    #define full filepaths to the historical and ssp585 data
     fname1 = path1+var+'_'+model+'_historical_'+variant_id+'_'+hist_range+'_World.nc'
-    fname2 = path2+var+'_'+model+'_ssp245_'+variant_id+'_'+ssp_date_range+'_World.nc'
+    fname2 = path2+var+'_'+model+'_ssp585_'+variant_id+'_'+ssp_date_range+'_World.nc'
     fname3 = path3+var+'_'+model+'_'+g6_exp+'_'+variant_id2+'_'+g6_date_range+'_World.nc'
 
     #load in data as iris cubes 
